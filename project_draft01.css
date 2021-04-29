@@ -43,18 +43,23 @@ border-collapse: collapse;
     border: 5px solid #03045e;
 }
 
+
+
 #counter{
     display: block;
     margin-left:auto;
     margin-right: auto;
-    height: 25px;
-    width: 75px;
+    height: 50px;
+    width: 15px;
     font-size: 25pt;
 
 }
+
+
+
 .scrollbar {
     overflow-y: scroll;
-    height: 550px;
+    height: 630px;
     display: flex;
     justify-content: space-around;
 }
@@ -90,99 +95,158 @@ border-collapse: collapse;
 
 #container02{
     width: 125px;
-    height: 260px;
+    height: 280px;
     margin: 10px;
     padding: 10px;
     border: 3px solid black;
+    font-weight: bold;
+    text-align: center;
 }
-
+#container02 div{
+    font-weight: normal;
+}
 #container03{
 
     width: 125px;
-    height: 260px;
+    height: 280px;
     margin: 10px;
     padding: 10px;
     border: 3px solid black;
     justify-content: space-around;
+    font-weight: bold;
+    text-align: center;
+}
+
+#container03 div{
+    font-weight: normal;
 }
 
 #container04{
 
     width: 125px;
-    height: 260px;
+    height: 280px;
     margin: 10px;
     padding: 10px;
     border: 3px solid black;
     justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
+}
+
+#container04 div{
+    font-weight: normal;
 }
 
 #container05{
 
     width: 125px;
-    height: 260px;
+    height: 280px;
     margin: 10px;
     padding: 10px;
     border: 3px solid black;
+    text-align: center;
+    font-weight: bold;
    
+}
+
+#container05 div{
+    font-weight: normal;
 }
 
 #container06{
 
     width: 125px;
-    height: 260px;
+    height: 280px;
     margin: 10px;
     padding: 10px;
     border: 3px solid black;
+    text-align: center;
+    font-weight: bold;
    
 }
+
+#container06 div{
+    font-weight: normal;
+}
+
+
 #container07{
 
     width: 125px;
-    height: 260px;
+    height: 280px;
     margin: 10px;
     padding: 10px;
     border: 3px solid black;
+    text-align: center;
+    font-weight: bold;
    
+}
+
+#container07 div{
+    font-weight: normal;
 }
 
 #container08{
 
     width: 125px;
-    height: 260px;
+    height: 280px;
     margin: 10px;
     padding: 10px;
     border: 3px solid black;
+    text-align: center;
+    font-weight: bold;
    
+}
+
+#container08 div{
+    font-weight: normal;
 }
 
 #container09{
 
     width: 125px;
-    height: 260px;
+    height: 280px;
     margin: 10px;
     padding: 10px;
     border: 3px solid black;
+    text-align: center;
+    font-weight: bold;
    
+}
+
+#container09 div{
+    font-weight: normal;
 }
 
 #container10{
 
     width: 125px;
-    height: 260px;
+    height: 280px;
     margin: 10px;
     padding: 10px;
     border: 3px solid black;
+    text-align: center;
+    font-weight: bold;
    
+}
+
+#container10 div{
+    font-weight: normal;
 }
 
 #container11{
 
     width: 125px;
-    height: 260px;
+    height: 280px;
     margin: 10px;
     padding: 10px;
     border: 3px solid black;
+    text-align: center;
+    font-weight: bold;
    
+}
+#container11 div{
+    font-weight: normal;
 }
 
 #Offense div{
