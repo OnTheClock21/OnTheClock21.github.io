@@ -1,0 +1,193 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
+
+width: 300px;
+
+}
+
+table, tr, td {
+
+padding: 2px, 3px;
+border: solid 2px black;
+border-collapse: collapse;
+
+
+}
+
+#header{
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.Draft2021 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+}
+
+#Eingabe{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    height: 50px;
+    width: 140px;
+    font-size: 18pt;
+    font-weight: bold;
+    border: 5px solid #03045e;
+}
+
+#counter{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    height: 25px;
+    width: 75px;
+    font-size: 25pt;
+
+}
+.scrollbar {
+    overflow-y: scroll;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#maincontainer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+
+.Deine_Picks {
+    
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 20px;
+}
+#Offense{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Defense{
+    display: flex;
+    justify-content: space-around;
+}
+
+#container02{
+    width: 125px;
+    height: 260px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+#container03{
+
+    width: 125px;
+    height: 260px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    justify-content: space-around;
+}
+
+#container04{
+
+    width: 125px;
+    height: 260px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    justify-content: space-around;
+}
+
+#container05{
+
+    width: 125px;
+    height: 260px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+   
+}
+
+#container06{
+
+    width: 125px;
+    height: 260px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+   
+}
+#container07{
+
+    width: 125px;
+    height: 260px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+   
+}
+
+#container08{
+
+    width: 125px;
+    height: 260px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+   
+}
+
+#container09{
+
+    width: 125px;
+    height: 260px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+   
+}
+
+#container10{
+
+    width: 125px;
+    height: 260px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+   
+}
+
+#container11{
+
+    width: 125px;
+    height: 260px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+   
+}
+
+#Offense div{
+    justify-content: space-between;
+}
+
+
+
