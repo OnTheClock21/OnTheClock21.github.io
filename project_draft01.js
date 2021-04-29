@@ -341,6 +341,7 @@ function compare_input()
        ev.preventDefault();
        var data = ev.dataTransfer.getData("text");
        ev.target.appendChild(document.getElementById(data))
+       console.log(data);
        
       }
 
