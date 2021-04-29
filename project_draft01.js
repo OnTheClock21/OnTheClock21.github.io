@@ -203,7 +203,7 @@ function Eingabe() {
     var Tabelle = document.getElementById("Spielereingabe");
     var id_string = "playercolumn";
     var id_string02 = "selectioncolumn";
-   for (rownumber=0; rownumber<32; rownumber++){
+   for (rownumber=1; rownumber<32; rownumber++){
     var Zeilen = Tabelle.insertRow(-1);
      var Zelle_1 = Zeilen.insertCell(0);
      var Zelle_2 = Zeilen.insertCell(1);
