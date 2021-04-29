@@ -36,7 +36,6 @@ function QB(data){
     
     for (i=0; i<13; i++){
         var newPlayer = document.createElement("DIV");
-        newPlayer.setAttribute("id" , data[i].Vorname );
         newPlayer.setAttribute("draggable", "true");
         newPlayer.addEventListener("dragstart", OnDragStart);
         var wrong_Vorname = JSON.stringify(data[i].Vorname);
@@ -44,6 +43,8 @@ function QB(data){
         var wrong_Nachname = JSON.stringify(data[i].Nachname);
         var Nachname = wrong_Nachname.replace(/[""]+/g,'');
         newPlayer.innerHTML= (Vorname+" "+Nachname);
+        newPlayer.innerHTML= (Vorname+" "+Nachname);
+        newPlayer.setAttribute("id" , Fullname );
         container.appendChild(newPlayer);
 
     }
@@ -101,7 +102,6 @@ function TE(data){
     var container = document.getElementById("container06");
     for (i=52; i<62; i++){
         var newPlayer = document.createElement("DIV");
-        newPlayer.setAttribute("id" , data[i].Vorname );
         newPlayer.setAttribute("draggable", "true");
         newPlayer.addEventListener("dragstart", OnDragStart);
         var wrong_Vorname = JSON.stringify(data[i].Vorname);
@@ -109,6 +109,8 @@ function TE(data){
         var wrong_Nachname = JSON.stringify(data[i].Nachname);
         var Nachname = wrong_Nachname.replace(/[""]+/g,'');
         newPlayer.innerHTML= (Vorname+" "+Nachname);
+        newPlayer.innerHTML= (Vorname+" "+Nachname);
+        newPlayer.setAttribute("id" , Fullname );
         container.appendChild(newPlayer);
     }
 }
