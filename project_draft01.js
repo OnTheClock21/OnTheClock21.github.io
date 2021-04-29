@@ -34,7 +34,7 @@ window.addEventListener("load", S);
 function QB(data){
     var container = document.getElementById("container02");
     
-    for (i=0; i<14; i++){
+    for (i=0; i<13; i++){
         var newPlayer = document.createElement("DIV");
         newPlayer.setAttribute("id" , data[i].Vorname );
         newPlayer.setAttribute("draggable", "true");
@@ -67,7 +67,7 @@ function OT(data){
 
 function OG(data){
     var container = document.getElementById("container04");
-    for (i=25; i<39; i++){
+    for (i=25; i<38; i++){
         var newPlayer = document.createElement("DIV");
         newPlayer.setAttribute("id" , data[i].Vorname );
         newPlayer.setAttribute("draggable", "true");
@@ -83,7 +83,7 @@ function OG(data){
 
 function WR(data){
     var container = document.getElementById("container05");
-    for (i=39; i<52; i++){
+    for (i=39; i<51; i++){
         var newPlayer = document.createElement("DIV");
         newPlayer.setAttribute("id" , data[i].Vorname );
         newPlayer.setAttribute("draggable", "true");
@@ -131,7 +131,7 @@ function DT(data){
 
 function EDGE(data){
     var container = document.getElementById("container08");
-    for (i=70; i<84; i++){
+    for (i=70; i<83; i++){
         var newPlayer = document.createElement("DIV");
         newPlayer.setAttribute("id" , data[i].Vorname );
         newPlayer.setAttribute("draggable", "true");
@@ -147,7 +147,7 @@ function EDGE(data){
 
 function LB(data){
     var container = document.getElementById("container09");
-    for (i=84; i<97; i++){
+    for (i=84; i<96; i++){
         var newPlayer = document.createElement("DIV");
         newPlayer.setAttribute("id" , data[i].Vorname );
         newPlayer.setAttribute("draggable", "true");
@@ -163,7 +163,7 @@ function LB(data){
 
 function CB(data){
     var container = document.getElementById("container10");
-    for (i=97; i<111; i++){
+    for (i=97; i<110; i++){
         var newPlayer = document.createElement("DIV");
         newPlayer.setAttribute("id" , data[i].Vorname );
         newPlayer.setAttribute("draggable", "true");
@@ -179,7 +179,7 @@ function CB(data){
 
 function S(data){
     var container = document.getElementById("container11");
-    for (i=111; i<123; i++){
+    for (i=111; i<122; i++){
         var newPlayer = document.createElement("DIV");
         
         newPlayer.setAttribute("draggable", "true");
