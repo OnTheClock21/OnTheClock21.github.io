@@ -43,7 +43,7 @@ function QB(data){
         var wrong_Nachname = JSON.stringify(data[i].Nachname);
         var Nachname = wrong_Nachname.replace(/[""]+/g,'');
         newPlayer.innerHTML= (Vorname+" "+Nachname);
-        newPlayer.innerHTML= (Vorname+" "+Nachname);
+        var Fullname=Vorname+Nachname;
         newPlayer.setAttribute("id" , Fullname );
         container.appendChild(newPlayer);
 
@@ -109,7 +109,7 @@ function TE(data){
         var wrong_Nachname = JSON.stringify(data[i].Nachname);
         var Nachname = wrong_Nachname.replace(/[""]+/g,'');
         newPlayer.innerHTML= (Vorname+" "+Nachname);
-        newPlayer.innerHTML= (Vorname+" "+Nachname);
+        var Fullname=Vorname+Nachname;
         newPlayer.setAttribute("id" , Fullname );
         container.appendChild(newPlayer);
     }
