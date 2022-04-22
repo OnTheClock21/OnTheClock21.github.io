@@ -1,0 +1,502 @@
+[
+ {
+  "Position": "EDGE",
+  "Name": "Kayvon Thibodeaux",
+  "Grade": "A+"
+ },
+ {
+  "Position": "EDGE",
+  "Name": "Aidan Hutchinson",
+  "Grade": "A+"
+ },
+ {
+  "Position": "S",
+  "Name": "Kyle Hamilton",
+  "Grade": "A"
+ },
+ {
+  "Position": "OT",
+  "Name": "Evan Neal",
+  "Grade": "A"
+ },
+ {
+  "Position": "OT",
+  "Name": "Ikem Ekwonu",
+  "Grade": "A+"
+ },
+ {
+  "Position": "EDGE",
+  "Name": "Travon Walker",
+  "Grade": "A"
+ },
+ {
+  "Position": "OT",
+  "Name": "Charles Cross",
+  "Grade": "A"
+ },
+ {
+  "Position": "CB",
+  "Name": "Ahmad Gardner",
+  "Grade": "A+"
+ },
+ {
+  "Position": "CB",
+  "Name": "Derek Stingley Jr.",
+  "Grade": "A"
+ },
+ {
+  "Position": "OT",
+  "Name": "Trevor Penning",
+  "Grade": "B"
+ },
+ {
+  "Position": "DL",
+  "Name": "Jordan Davis",
+  "Grade": "A"
+ },
+ {
+  "Position": "WR",
+  "Name": "Garrett Wilson",
+  "Grade": "A"
+ },
+ {
+  "Position": "WR",
+  "Name": "Treylon Burks",
+  "Grade": "A"
+ },
+ {
+  "Position": "EDGE",
+  "Name": "George Karlaftis",
+  "Grade": "A"
+ },
+ {
+  "Position": "WR",
+  "Name": "Drake London",
+  "Grade": "A-"
+ },
+ {
+  "Position": "EDGE",
+  "Name": "David Ojabo",
+  "Grade": "A"
+ },
+ {
+  "Position": "WR",
+  "Name": "Jameson Williams",
+  "Grade": "A-"
+ },
+ {
+  "Position": "EDGE",
+  "Name": "Jermaine Johnson II",
+  "Grade": "B+"
+ },
+ {
+  "Position": "DL",
+  "Name": "Travis Jones",
+  "Grade": "B+"
+ },
+ {
+  "Position": "QB",
+  "Name": "Matt Corral",
+  "Grade": "B"
+ },
+ {
+  "Position": "G",
+  "Name": "Zion Johnson",
+  "Grade": "A-"
+ },
+ {
+  "Position": "C",
+  "Name": "Tyler Linderbaum",
+  "Grade": "A"
+ },
+ {
+  "Position": "S",
+  "Name": "Lewis Cine",
+  "Grade": "B-"
+ },
+ {
+  "Position": "LB",
+  "Name": "Devin Lloyd",
+  "Grade": "B+"
+ },
+ {
+  "Position": "WR",
+  "Name": "Chris Olave",
+  "Grade": "A-"
+ },
+ {
+  "Position": "QB",
+  "Name": "Malik Willis",
+  "Grade": "A"
+ },
+ {
+  "Position": "G",
+  "Name": "Kenyon Green",
+  "Grade": "A"
+ },
+ {
+  "Position": "DL",
+  "Name": "Devonte Wyatt",
+  "Grade": "A-"
+ },
+ {
+  "Position": "LB",
+  "Name": "Nakobe Dean",
+  "Grade": "B"
+ },
+ {
+  "Position": "WR",
+  "Name": "Christian Watson",
+  "Grade": "B"
+ },
+ {
+  "Position": "CB",
+  "Name": "Andrew Booth Jr.",
+  "Grade": "B"
+ },
+ {
+  "Position": "EDGE",
+  "Name": "Boye Mafe",
+  "Grade": "B-"
+ },
+ {
+  "Position": "RB",
+  "Name": "Breece Hall",
+  "Grade": "C+"
+ },
+ {
+  "Position": "DL",
+  "Name": "Perrion Winfrey",
+  "Grade": "C+"
+ },
+ {
+  "Position": "CB",
+  "Name": "Kaiir Elam",
+  "Grade": "B-"
+ },
+ {
+  "Position": "DL",
+  "Name": "DeMarvin Leal",
+  "Grade": "C"
+ },
+ {
+  "Position": "QB",
+  "Name": "Sam Howell",
+  "Grade": "C-"
+ },
+ {
+  "Position": "RB",
+  "Name": "Kenneth Walker III",
+  "Grade": "C+"
+ },
+ {
+  "Position": "QB",
+  "Name": "Kenny Pickett",
+  "Grade": "C-"
+ },
+ {
+  "Position": "OT",
+  "Name": "Tyler Smith",
+  "Grade": "B"
+ },
+ {
+  "Position": "QB",
+  "Name": "Desmond Ridder",
+  "Grade": "C"
+ },
+ {
+  "Position": "S",
+  "Name": "Daxton Hill",
+  "Grade": "C"
+ },
+ {
+  "Position": "CB",
+  "Name": "Trent McDuffie",
+  "Grade": "B-"
+ },
+ {
+  "Position": "WR",
+  "Name": "George Pickens",
+  "Grade": "B-"
+ },
+ {
+  "Position": "LB",
+  "Name": "Leo Chenal",
+  "Grade": "B"
+ },
+ {
+  "Position": "RB",
+  "Name": "Isaiah Spiller",
+  "Grade": "C"
+ },
+ {
+  "Position": "LB",
+  "Name": "Christian Harris",
+  "Grade": "C+"
+ },
+ {
+  "Position": "CB",
+  "Name": "Kyler Gordon",
+  "Grade": "C+"
+ },
+ {
+  "Position": "WR",
+  "Name": "David Bell",
+  "Grade": "C"
+ },
+ {
+  "Position": "LB",
+  "Name": "Chad Muma",
+  "Grade": "C"
+ },
+ {
+  "Position": "CB",
+  "Name": "Tariq Woolen",
+  "Grade": "C-"
+ },
+ {
+  "Position": "S",
+  "Name": "Jaquan Brisker",
+  "Grade": "D+"
+ },
+ {
+  "Position": "DL",
+  "Name": "Phidarian Mathis",
+  "Grade": "C-"
+ },
+ {
+  "Position": "G",
+  "Name": "Ed Ingram",
+  "Grade": "C+"
+ },
+ {
+  "Position": "RB",
+  "Name": "Rachaad White",
+  "Grade": "C-"
+ },
+ {
+  "Position": "EDGE",
+  "Name": "Kingsley Enagbare",
+  "Grade": "C"
+ },
+ {
+  "Position": "WR",
+  "Name": "Jahan Dotson",
+  "Grade": "C+"
+ },
+ {
+  "Position": "G",
+  "Name": "Cole Strange",
+  "Grade": "C"
+ },
+ {
+  "Position": "OT",
+  "Name": "Sean Rhyan",
+  "Grade": "C-"
+ },
+ {
+  "Position": "OT",
+  "Name": "Bernhard Raimann",
+  "Grade": "C-"
+ },
+ {
+  "Position": "DL",
+  "Name": "Christopher Hinton",
+  "Grade": "C+"
+ },
+ {
+  "Position": "LB",
+  "Name": "Channing Tindall",
+  "Grade": "C"
+ },
+ {
+  "Position": "EDGE",
+  "Name": "Logan Hall",
+  "Grade": "C"
+ },
+ {
+  "Position": "WR",
+  "Name": "Skyy Moore",
+  "Grade": "C+"
+ },
+ {
+  "Position": "EDGE",
+  "Name": "Arnold Ebiketie",
+  "Grade": "C+"
+ },
+ {
+  "Position": "CB",
+  "Name": "Roger McCreary",
+  "Grade": "C+"
+ },
+ {
+  "Position": "OT",
+  "Name": "Daniel Faalele",
+  "Grade": "C"
+ },
+ {
+  "Position": "TE",
+  "Name": "Jalen Wydermyer",
+  "Grade": "B-"
+ },
+ {
+  "Position": "S",
+  "Name": "Jalen Pitre",
+  "Grade": "C+"
+ },
+ {
+  "Position": "G",
+  "Name": "Dylan Parham",
+  "Grade": "C"
+ },
+ {
+  "Position": "EDGE",
+  "Name": "Nik Bonitto",
+  "Grade": "C-"
+ },
+ {
+  "Position": "LB",
+  "Name": "Darrian Beavers",
+  "Grade": "C"
+ },
+ {
+  "Position": "RB",
+  "Name": "Tyler Allgeier",
+  "Grade": "D+"
+ },
+ {
+  "Position": "WR",
+  "Name": "Alec Pierce",
+  "Grade": "D+"
+ },
+ {
+  "Position": "LB",
+  "Name": "Quay Walker",
+  "Grade": "C-"
+ },
+ {
+  "Position": "WR",
+  "Name": "Wan'Dale Robinson",
+  "Grade": "C"
+ },
+ {
+  "Position": "TE",
+  "Name": "Trey McBride",
+  "Grade": "C+"
+ },
+ {
+  "Position": "DL",
+  "Name": "Haskell Garrett",
+  "Grade": "C"
+ },
+ {
+  "Position": "CB",
+  "Name": "Josh Jobe",
+  "Grade": "C-"
+ },
+ {
+  "Position": "G",
+  "Name": "Jamaree Salyer",
+  "Grade": "C+"
+ },
+ {
+  "Position": "WR",
+  "Name": "Jalen Tolbert",
+  "Grade": "C-"
+ },
+ {
+  "Position": "EDGE",
+  "Name": "Sam Williams",
+  "Grade": "C-"
+ },
+ {
+  "Position": "TE",
+  "Name": "Isaiah Likely",
+  "Grade": "C"
+ },
+ {
+  "Position": "EDGE",
+  "Name": "Amare Barno",
+  "Grade": "D+"
+ },
+ {
+  "Position": "S",
+  "Name": "Kerby Joseph",
+  "Grade": "D+"
+ },
+ {
+  "Position": "DL",
+  "Name": "Zachary Carter",
+  "Grade": "D+"
+ },
+ {
+  "Position": "OT",
+  "Name": "Darian Kinnard",
+  "Grade": "C"
+ },
+ {
+  "Position": "LB",
+  "Name": "Troy Andersen",
+  "Grade": "C-"
+ },
+ {
+  "Position": "CB",
+  "Name": "Tariq Castro-Fields",
+  "Grade": "D"
+ },
+ {
+  "Position": "S",
+  "Name": "Nick Cross",
+  "Grade": "D+"
+ },
+ {
+  "Position": "QB",
+  "Name": "Carson Strong",
+  "Grade": "B"
+ },
+ {
+  "Position": "OT",
+  "Name": "Nicholas Petit-Frere",
+  "Grade": "C-"
+ },
+ {
+  "Position": "CB",
+  "Name": "Alontae Taylor",
+  "Grade": "C"
+ },
+ {
+  "Position": "DL",
+  "Name": "Alex Wright",
+  "Grade": "D+"
+ },
+ {
+  "Position": "TE",
+  "Name": "Greg Dulcich",
+  "Grade": "D-"
+ },
+ {
+  "Position": "EDGE",
+  "Name": "Josh Paschal",
+  "Grade": "D+"
+ },
+ {
+  "Position": "RB",
+  "Name": "Pierre Strong Jr.",
+  "Grade": "D"
+ },
+ {
+  "Position": "RB",
+  "Name": "Zamir White",
+  "Grade": "D"
+ },
+ {
+  "Position": "LB",
+  "Name": "Mike Rose",
+  "Grade": "D-"
+ },
+ {
+  "Position": "OT",
+  "Name": "Braxton Jones",
+  "Grade": "D"
+ }
+]

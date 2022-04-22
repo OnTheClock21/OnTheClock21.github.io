@@ -1,0 +1,577 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+
+
+
+/******************************* HEADER**************************************************************/
+#id_header{
+    position:fixed;
+    display: grid;
+    background: radial-gradient(100.69% 1963.89% at 100.69% 100%, #5D4E7E 10.05%, #140339 35.62%);
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#id_header>h1{
+    grid-area: 1/1/2/2;
+
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 30%;
+    padding: 10px 0 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.draft_logo{
+    grid-area: 1/2/2/3;
+    width: auto;
+    height: 120px;
+    top:50px;
+    left:50px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 300px;
+}
+
+
+
+/***************************************** MENU **********************************************************/
+.cont_menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 75px;
+    grid-row-gap: 0px;
+    height: 525px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;  
+    padding-top:275px;
+}
+
+
+.pic_draftboard { 
+    grid-area: 1 / 1 / 2 / 2;
+    height: 200px;
+    width: 350px;
+ }
+
+.pic_draftboard> img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;    
+}
+
+
+.h_menu{
+    grid-area: 2 / 1 / 3 /2;
+    height: 70px;
+    width: 350px;
+}
+
+.h_menu>h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+    margin-block-end: 2px;
+    color: #000000;
+}
+
+.h_menu>hr{
+    width: 300px;
+    height: 1px;
+    background: #000000;
+    margin-top: 0px;
+}
+
+
+.txt_draftboard{
+    grid-area: 3 / 1 / 4 / 2;
+    height: 210px;
+    width: 300px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #514242;
+    margin-left: 25px;
+}
+
+.btn_draftboard{
+    grid-area: 4 / 1 / 5 / 2;
+    margin-left: 100px;
+    height: 45px;
+}
+
+.btn_draftboard>button{
+    background: #FFFFFF;
+    border: 1px solid #010066;
+    box-sizing: border-box;
+    border-radius: 5px;  
+    width: 150px;
+    height: 45px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+}
+
+
+.pic_livemock{
+    grid-area: 1 / 2 / 2 / 3;
+    height: 200px;
+    width: 350px;
+}
+
+.pic_livemock > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.h_menu2{
+    grid-area: 2/2/3/3;
+    height: 70px;
+    width: 350px;
+}
+
+.h_menu2>h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size:28px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    margin-block-end: 2px;
+    color: #000000;
+}
+
+.h_menu2>hr{
+    width: 300px;
+    height: 1px;
+    background: #000000;
+    margin-top: 0px;   
+}
+
+
+.txt_livemock{
+    grid-area: 3 / 2 / 4 / 3;
+    height: 210px;
+    width: 300px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #514242;
+    margin-left: 25px;
+    
+}
+
+
+.btn_livemock{
+    grid-area: 4 / 2 / 5 / 3;
+    margin-left: 100px;
+    height: 45px;
+}
+
+.btn_livemock>button{
+    background: #FFFFFF;
+    border: 1px solid #010066;
+    box-sizing: border-box;
+    border-radius: 5px;  
+    width: 150px;
+    height: 45px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+}
+
+
+.pic_classicmock{
+    grid-area: 1 / 3 / 2 / 4;
+    height: 200px;
+    width: 350px;
+}
+
+.pic_classicmock>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.h_menu3{
+    grid-area: 2/3/3/3;
+    height: 70px;
+    width: 350px;
+}
+
+.h_menu3>h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    margin-block-end: 2px;
+    color: #000000;
+}
+
+.h_menu3>hr{
+    width: 300px;
+    height: 1px;
+    background: #000000;
+    margin-top: 0px;   
+}
+
+
+.txt_classicmock{
+    grid-area: 3 / 3 / 4 / 4;
+    height: 210px;
+    width: 300px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #514242;
+    margin-left: 20px;
+}
+
+.btn_classicmock{
+    grid-area: 4 / 3 / 5 / 4;
+    margin-left: 100px;
+    height: 45px;
+}
+
+.btn_classicmock>button{
+    background: #FFFFFF;
+    border: 1px solid #010066;
+    box-sizing: border-box;
+    border-radius: 5px;  
+    width: 150px;
+    height: 45px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+}
+
+/***************************************** Live Mock Draft **********************************************************/
+#cont_livemock{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 10fr;
+    grid-column-gap: 50px;
+    height: 770px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:0;
+}
+
+/*************** Available Players List **************/
+#list_available_players{
+    display: grid;
+    grid-area: 2 / 2 / 3 / 3;
+    overflow-y: scroll;
+    height: 600px;
+    width: auto;
+    margin: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 30px;
+}
+
+#list_available_players>li{
+    border: 1px solid #929292;
+    height: 30px;
+    margin-bottom: 3px;
+}
+
+.available_player_grade{
+    display: inline;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 25px;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-bottom: 2px;
+    border: none;
+    height: 28px;
+
+    color: #17AA75;
+}
+
+.class_grade_option{
+    font-size: 18px;
+    color:#000000;
+}
+
+.available_player_name{
+    display: inline;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #010066;
+    vertical-align: middle;
+}
+
+.available_player_position{
+    display: inline;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    vertical-align: middle;
+    float: right;
+    margin:0px;
+    margin-right: 10px;
+
+    color: #5D4E7E;
+}
+
+/************ Live-Mock Table ******************/
+.div_livemock_table{
+    grid-area: 1 / 1 / 3 / 2;
+    overflow-y: scroll;
+    height: 670px;
+    width: 745px;
+    margin: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.table_livemock_class>{
+    opacity: 0.7;
+}
+
+#first_mocktable_row{
+    opacity: 1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cont_selection_number{
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    
+    border: 1px solid #010066;
+    box-sizing: border-box;
+}
+
+.cont_selection_number>h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    color: #000000;
+}
+
+.cont_selection_number>p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 24px;
+    
+    text-align: center;
+    color: #000000;
+    margin:0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+
+    
+}
+
+.cont_selection_team{
+    height: 60px;
+    border:1px solid black;
+    width: 60px;
+}
+.cont_selection_team>p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    color: #000000;
+}
+
+.cont_selection_team>img{
+    height: 35px;
+    width: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    object-fit: contain;
+}
+
+.cont_selection_player{
+    height: 60px;
+    border:1px solid black;
+    width: 300px;
+}
+
+.txt_player{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    color: #010066;
+    display: inline;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 5px;
+    float: left;
+}
+
+.txt_position{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    color: #5D4E7E;
+    display: inline;
+    float: right;
+}
+
+/********************** Scoreboard *********************/
+.cont_scoreboard{
+    grid-area: 1 / 2 / 2 /3;
+    display: grid;
+    grid-template-columns: 1fr 1fr, 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    height: 40px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+}
+
+.txt_scoreheading{
+    grid-area: 1/1/2/2;
+    display: inline;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+    margin: 0px;
+}
+
+#txt_score{
+    display: inline;
+    grid-area: 1/2/2/3;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 40px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin:0px;
+}
+
+.btn_confirm_selection{
+    display: inline;
+    grid-area: 1/3/2/4;
+    vertical-align: middle;
+    margin:0px;
+    background: #FFFFFF;
+    border: 1px solid #010066;
+    box-sizing: border-box;
+    border-radius: 5px;  
+    width: 180px;
+    height: 40px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+}
+
+
+
+/********************** Scrollbar ***********************/
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #5D4E7E; 
+border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #010066; 
+  }

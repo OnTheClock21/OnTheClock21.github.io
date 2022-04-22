@@ -4,310 +4,712 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="project_draft01.css"/>
-    
-   
+    <title>On the clock 2022</title>
+    <link rel="stylesheet" href="project_draft22.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
-<body onload="Eingabe()">
-    <div class="pictures">
-          <img src="\draftLogo.png" alt="Draft221" class="Draft2021"/>
+<body onload="getPlayerCards()">
+ 
+
+    <div id="id_header">
+        <h1>On the clock 2022</h1> 
+        <img class="draft_logo"src="Pictures_Page1\draft_logo_noYear.png" alt="Draft Logo">
+    </div>
+
+
+    <div class="cont_menu" onscroll="scroll_to_livemock()">
+
+        <div class="pic_draftboard">
+            <img class="custom board" src="Pictures_Page1\war_room01.jpg">
+        </div>
+        <div class="h_menu">
+            <h1>Custom Draft Boards</h1>
+            <hr>
+        </div>
             
-    </div>
+        <div class="txt_draftboard">
+            <p>Be ready to make the call!</p>
+            <p>Our custom draft board allows you to rank all the prospects according to your personal opinion. </p>
+            <p>This allows you to make a quick and accurate descision when your team is on the clock.</p> 
 
-    <button id="Eingabe" >Eingabe</button>
-  <div id="cont">
-    <div id="counter">
-      0
-    </div>
-
-    <p></p>
-<div id="maincontainer">
-    <div class="container"> 
-        <div class="scrollbar">
-            <table id="Spielereingabe">
-                <tr id = "header">
-                    
-                    <td>Dein Spieler</td>
-                    <td>2021 Selection</td>
-                    <td>#</td>
-                    
-                </tr>
-         
-                <tr>
-                 
-
-                    <td
-                    class="Deine_Picks" id="playercolumn0"  >
-                    </td>
-                   
-                    <td>
-                    <input type="text" class="Selection" id="selectioncolumn0" placeholder="Selection">
-                    </td>
-                    <td>
-                      1
-                  </td>
-
-
-                  
-                </tr>
-                
-               
-                
-            </table>    
         </div>
-   </div>
-        <div id = "O#+D#"> 
-            <div id = "Offense">
-                        <div id = "container02">Quarterbacks<hr>     
-                        </div>   
-                        
-                        <div id="container03">Offensive Tackle<hr>
-                        </div>
-
-                        <div id="container04">Interior Linemen<hr>
-                        </div>
-
-                        <div id="container05">Wide Receiver<hr>
-                        </div>
-
-                        <div id="container06">Tight End<hr>
-                        </div>      
-                </div> 
-                
-                <div id ="Defense">
-                    <div id="container07">Defensive Tackle<hr>
-                    </div>
-
-                    <div id="container08">EDGE<hr>
-                    </div>
-
-                    <div id="container09">Linebacker<hr>
-                    </div>
-
-                    <div id="container10">Cornerbacks<hr>
-                    </div>
-
-                    <div id="container11">Safeties<hr>
-                    </div>
-
-                    
-                </div>    
+        <div class="btn_draftboard">
+            <button type="button">Let`s go!</button>
         </div>
-</div>
 
-
-
-</div>  
-<p></p>
-<p></p>
-<div class="slideshow-container">
-
-    <div class="mySlides fade">
-      
-      <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\01_Jaguars.PNG" style="width:100%">
-    </div>
-    
-    <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\02_Jets.PNG" style="width:100%">
-      </div>
-
-
-    <div class="mySlides fade">
-      
-      <img src= "\Teamprofile-20210429T194011Z-001\Teamprofile\03_sanfrancisco.PNG" style="width:100%">
-      
-    </div>
-    
-    <div class="mySlides fade">
-      
-      <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\04_falcons.PNG" alt="Draft221" style="width:100%">
-
-    </div>
-
-    <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\05_bengals.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\06_dolphins.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\07_lions.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\08_panthers.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\09_broncos.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\10_cowboys.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\11_nyg.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\12_eagles.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\13_chargers.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\14_vikings.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\15_patriots.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\16_cardinals.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\17_raiders.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\19_washington.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\20_bears.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\21_colts.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\22_titans.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\24_steelers.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\26_browns.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\27_ravens.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\28_saints.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\29_packers.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\30_bills.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\32_buccaneers.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\56_seahawks.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\57_rams.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\58_chiefs.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-
-      <div class="mySlides fade">
-      
-        <img src="\Teamprofile-20210429T194011Z-001\Teamprofile\67_texans.PNG" alt="Draft221" style="width:100%">
-  
-      </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    
-    </div>
-    <br>
-    
-    
-
-
-   
         
+    
+
+        <div class="pic_livemock">
+            <img class="live mock" src="Pictures_Page1\goodell_big_hug.webp">
+        </div>
+        <div class="h_menu2">
+            <h1>Live Mock Draft</h1>
+            <hr>
+        </div>
+        <div class="txt_livemock">
+            <p>Draft disapointments destroyed!</p>
+            <p>The first team suprises everyone with a curious selection and your carefully crafted mockdraft turns into a useless piece of paper. </p>
+            <p>Not anymore! This feature allows you to make your predictions in real time.</p>            
+        </div>
+        <div class="btn_livemock">
+            <button type="button" onclick="scroll_to_livemock()">Let`s go!</button>
+        </div>
+
+
+
+        <div class="pic_classicmock">
+            <img src="Pictures_Page1\war_room_old.jpg">
+        </div>
+        <div class="h_menu3">
+            <h1>Classic Mock Draft</h1>
+            <hr>
+        </div>
+        <div class="txt_classicmock">
+            <p>Never change a running system.</p>
+            <p>Create your mockdraft before the draft starts. Use our team and player profiles to create your personal draft prediction. Share it with your friends and enjoy the draft whitout distractions.</p>
+
+        </div>
+        <div class="btn_classicmock">
+            <button type="button">Let`s go!</button>
+        </div>
+
+
+        </div>
+
+    <div id="cont_livemock">
+        
+        <div class="div_livemock_table">
+            <table id="table_livemock" class="table_livemock_class"> 
+
+                <tr id="first_mocktable_row">
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>1</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Jaguars</p>
+                        <img src="Teamlogos\jaguars.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player" >Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>2</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Detroit</p>
+                        <img src="Teamlogos\lions.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>3</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Houston</p>
+                        <img src="Teamlogos\texans.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>4</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>NY Jets</p>
+                        <img src="Teamlogos\jets.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>5</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>NY Giants</p>
+                        <img src="Teamlogos\giants.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>6</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Carolina</p>
+                        <img src="Teamlogos\panthers.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>7</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>NY Giants</p>
+                        <img src="Teamlogos\giants.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>8</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Atlanta</p>
+                        <img src="Teamlogos\falcons.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>9</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Seattle</p>
+                        <img src="Teamlogos\seahawks.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>10</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>NY Jets</p>
+                        <img src="Teamlogos\jets.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>11</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Washington</p>
+                        <img src="Teamlogos\washington.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selectionß</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>12</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Minnesota</p>
+                        <img src="Teamlogos\vikings.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selectionß</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>13</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Houston</p>
+                        <img src="Teamlogos\texans.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>14</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Baltimore</p>
+                        <img src="Teamlogos\ravens.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>15</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Philadelphia</p>
+                        <img src="Teamlogos\eagles.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>16</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Philadelphia</p>
+                        <img src="Teamlogos\eagles.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>17</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>LA Chargers</p>
+                        <img src="Teamlogos\chargers.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>18</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>New Orleans</p>
+                        <img src="Teamlogos\saints.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>19</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Philadelphia</p>
+                        <img src="Teamlogos\eagles.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>20</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Pittsburgh</p>
+                        <img src="Teamlogos\steelers.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>21</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>New England</p>
+                        <img src="Teamlogos\patriots.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>22</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Green Bay</p>
+                        <img src="Teamlogos\packers.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>23</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Arizona</p>
+                        <img src="Teamlogos\cardinals.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>24</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Dallas</p>
+                        <img src="Teamlogos\cowboys.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>25</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Buffalo</p>
+                        <img src="Teamlogos\bills.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>26</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Tennessee</p>
+                        <img src="Teamlogos\titans.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>27</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Tampa Bay</p>
+                        <img src="Teamlogos\buccaneers.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>28</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Green Bay</p>
+                        <img src="Teamlogos\packers.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>29</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Kansas City</p>
+                        <img src="Teamlogos\chiefs.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>30</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Kansas City</p>
+                        <img src="Teamlogos\chiefs.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>31</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Cincinnati</p>
+                        <img src="Teamlogos\bengals.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="cont_selection_number">
+                        <h1>Pick</h1>
+                        <p>32</p>
+                    </td>
+                    <td class="cont_selection_team">
+                        <p>Detroit</p>
+                        <img src="Teamlogos\lions.png"> 
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Your Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                    <td class="cont_selection_player" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p class="txt_player">Actual Selection</p>
+                        <p class="txt_position">Position</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="cont_scoreboard">
+            <p class="txt_scoreheading">Score:</p>
+            <p id="txt_score">0</p>
+            <button class="btn_confirm_selection" type="button" onclick="compare_players()">Confirm Selection</button>
+        </div>
+
+        <ul id="list_available_players" style="list-style: none;"> 
+
+              <!--List is filled up by the function "getPlayerCards()" in "project_draft22.js"-->  
+        </ul>
+
+    </div>
+
+    <script src="project_draft22.js"></script>
    
-    <script src="project_draft01.js"></script>
     
 </body>
 </html>
